@@ -464,8 +464,8 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 #top-bar { position: relative; z-index: 1; }
 #top-bar, #top-bar a { color: #999; }
 #top-bar .top-bar-inner-wrap { display: table; width: 100%; padding: 12px 0px 13px 0px; }
-#top-bar .top-bar-content { display: table-cell; width: 60%; text-align: left; vertical-align: middle; }
-#top-bar .top-bar-socials { display: table-cell; width: 40%; text-align: right; vertical-align: middle; }
+#top-bar .top-bar-content { display: table-cell; width: 75%; text-align: left; vertical-align: middle; }
+#top-bar .top-bar-socials { display: table-cell; width: 25%; text-align: right; vertical-align: middle; }
 
 /* Top Bar Content */
 #top-bar .top-bar-content .content { position: relative; display: inline-block; padding: 0px 17px 0px 21px ; margin: 0px 6px; }
@@ -511,6 +511,8 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 /* Header
 -------------------------------------------------------------- */
 #site-header { position: relative; background-color: #fff; box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);  }
+#site-header-no-transperent { position: relative; background-color: #fff; }
+
 #site-header-inner { position: relative; }
 #site-header .wrap-inner { padding-top: 28.5px; padding-bottom: 28.5px;  -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
@@ -601,7 +603,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 .header-style-2 #main-nav > ul > li > a:hover:after { opacity: 1; visibility: visible; width: 100%; }
 
 /* Style 3 */
-.header-style-3 #site-header { background-color:  rgba(255, 255, 255, 0.5); box-shadow: none; }
+/* .header-style-3 #site-header { background-color:  rgba(255, 255, 255, 0.5); box-shadow: none; } */
 .header-style-3 #site-header #site-logo { margin-left: 2px; }
 .header-style-3 #site-header #main-nav { position: absolute; right: 0px; top: 50%; z-index: 99; -webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);transform: translateY(-50%); }
 .header-style-3.menu-has-search #site-header #main-nav { right: 44px; }
@@ -881,7 +883,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 
 /* Footer
 -------------------------------------------------------------- */
-#footer { background: url('assets/img/page/bg-footer.jpg') no-repeat center center; background-size: cover;  position: relative; z-index: 1; padding: 79px 0px 72px 0px; }
+#footer { background-color: var(--light-bg); padding: 79px 0px 72px 0px; }
 
 #footer-widgets .widget .widget-title { color: #fff; font-size: 14px; margin-bottom: 24px; letter-spacing: 1.3px; margin-top: 2px; }
 #footer-widgets .widget .widget-title span { padding: 0px 0px 8px 0px; }
@@ -982,7 +984,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 -------------------------------------------------------------- */
 @media only screen and (max-width: 1199px) {
 	.hentry .post-tags,
-	#top-bar .top-bar-content { width: 70%; }
+	#top-bar .top-bar-content { width: 75%; }
 
 	.hentry .post-socials,
 	#top-bar .top-bar-socials { width: 30%; }
@@ -1195,4 +1197,26 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 .width-80 {
   width: 80% !important;
   margin: auto;
+}
+
+.white-bg {
+  /* box-shadow : none !important; */
+  background-color: white;
+}
+
+.bottom-shadow {
+  -webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.25);
+  box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.25);
+}
+
+.heading-dark {
+  color: rgb(79,62,111) !important;
+}
+
+.info-icon{
+  width: 48px;
+}
+
+.bg-gradient {
+  background-image: radial-gradient(circle at 63.33333333333333% 0%, rgba(255,189,194,0.42) 0%, 17.5%, rgba(255,189,194,0) 35%), radial-gradient(circle at 99.16666666666667% 7.5%, #FFFFFF 0%, 17.5%, rgba(255,255,255,0) 35%), radial-gradient(circle at 12.5% 85.83333333333333%, #FFFFFF 0%, 17.5%, rgba(255,255,255,0) 35%), radial-gradient(circle at 46.666666666666664% 94.16666666666667%, rgba(255,189,194,0.49) 0%, 20%, rgba(255,189,194,0) 40%), radial-gradient(circle at 97.91666666666666% 100%, rgba(204,192,225,0.99) 0%, 25%, rgba(204,192,225,0) 50%), radial-gradient(circle at 4.583333333333333% 5.833333333333333%, #CCC0E1 0%, 42%, rgba(204,192,225,0) 70%), radial-gradient(circle at 60% 53.333333333333336%, #FFFFFF 0%, 42%, rgba(255,255,255,0) 70%), radial-gradient(circle at 48.9013671875% 49.521484375%, #CCC0E1 0%, 100%, rgba(204,192,225,0) 100%);
 }
