@@ -22,7 +22,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/colors/color1.css" id="colors">
 
     <!-- Favicon and Touch Icons  -->
-    <link rel="shortcut icon" href="assets/icon/favicon.png">
+    <link rel="shortcut icon" href="assets/logo.png">
     <link rel="apple-touch-icon-precomposed" href="assets/icon/apple-touch-icon-158-precomposed.png">
 
     <!--[if lt IE 9]>
@@ -32,7 +32,7 @@
 
 </head>
 
-<body class="header-fixed page sidebar-right header-style-2 topbar-style-1 menu-has-search">
+<body class="header-fixed page no-sidebar header-style-3 topbar-style-3 site-header-absolute menu-has-search">
 
     <div id="wrapper" class="animsition">
         <div id="page" class="clearfix">
@@ -40,13 +40,13 @@
             <div id="site-header-wrap">
                 <!-- Top Bar -->
                 <div id="top-bar">
-                    <div id="top-bar-inner" class="container">
+                    <div id="top-bar-inner" class="container text-dark">
                         <div class="top-bar-inner-wrap">
                             <div class="top-bar-content">
                                 <div class="inner">
                                     <span class="address content">One Broadway, Cambridge, MA 02139</span>
                                     <span class="phone content">704-341-5028</span>
-                                    <span class="time content">contact@snapdragonls.com</span>
+                                    <span class="email content">contact@snapdragonls.com</span>
                                 </div>
                             </div><!-- /.top-bar-content -->
 
@@ -67,14 +67,14 @@
 
                 <!-- Header -->
                 <header id="site-header">
-                    <div id="site-header-inner" class="container">
-                        <div class="wrap-inner clearfix">
+                    <div id="site-header-inner" class="container ">
+                        <div class="wrap-inner clearfix ">
                             <div id="site-logo" class="clearfix">
                                 <div id="site-log-inner">
                                     <a href="index.html" rel="home" class="main-logo">
-                                        <img src="assets/img/logo-small.png" alt="Autora" width="186" height="39"
-                                            data-retina="assets/img/logo-small@2x.png" data-width="186"
-                                            data-height="39"> </a>
+                                        <img src="assets/logo.png" alt="SNAP" width="53" height="61"
+                                            data-retina="assets/logo.png" data-width="53" data-height="61">
+                                    </a>
                                 </div>
                             </div><!-- /#site-logo -->
 
@@ -84,97 +84,83 @@
 
                             <nav id="main-nav" class="main-nav">
                                 <ul id="menu-primary-menu" class="menu">
-                                    <li class="menu-item menu-item-has-children">
+                                    <li class="menu-item menu-item-has-children ">
                                         <a href="index.html">HOME</a>
-                                        <ul class="sub-menu">
-
-                                            <li class="menu-item"><a href="index.html">HOME 2</a></li>
-                                        </ul>
                                     </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="snap-transparency.html">SNAPTransparency </a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="price-optimizer.html">PriceOptimizer</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children ">
+                                        <a href="about.html">About</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="resources.html">Resources</a>
+                                    </li>
+
                                     <li class="menu-item menu-item-has-children current-menu-item">
-                                        <a href="about.html">ABOUT US </a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a href="about.html">ABOUT US</a></li>
-
-                                            <li class="menu-item current-item"><a href="careers.html">ABOUT CAREERS</a>
-                                            </li>
-                                        </ul>
+                                        <a href="careers.html">Careers</a>
                                     </li>
                                     <li class="menu-item menu-item-has-children">
-                                        <a href="snap-transparency.html">SERVICES</a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a href="snap-transparency.html">SNAPTransparency</a>
-                                            </li>
-                                            <li class="menu-item"><a href="price-optimizer.html">PriceOptimizer</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item menu-item-has-children">
-
-                                    <li class="menu-item menu-item-has-children">
-                                        <a href="resources.html">BLOG</a>
-                                        <ul class="sub-menu right-sub-menu">
-                                            <li class="menu-item"><a href="resources.html">BLOG</a></li>
-
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item menu-item-has-children">
-                                        <a href="contact.html">CONTACT</a>
-                                        <ul class="sub-menu right-sub-menu">
-                                            <li class="menu-item"><a href="contact.html">CONTACT</a></li>
-
-                                        </ul>
+                                        <a href="contact.html">Contact</a>
                                     </li>
                                 </ul>
                             </nav><!-- /#main-nav -->
 
-                            <div id="header-search">
-                                <a href="#" class="header-search-icon">
-                                    <span class="search-icon fa fa-search">
-                                    </span>
-                                </a>
+                            <!-- <div id="header-search">
+                            <a href="#" class="header-search-icon">
+                                <span class="search-icon fa fa-search">
+                                </span>
+                            </a>
 
-                                <form role="search" method="get" class="header-search-form" action="#">
-                                    <label class="screen-reader-text">Search for:</label>
-                                    <input type="text" value="" name="s" class="header-search-field"
-                                        placeholder="Search...">
-                                    <button type="submit" class="header-search-submit" title="Search"><i
-                                            class="fa fa-search"></i></button>
-                                </form>
-                            </div><!-- /#header-search -->
+                            <form role="search" method="get" class="header-search-form" action="#">
+                                <label class="screen-reader-text">Search for:</label>
+                                <input type="text" value="" name="s" class="header-search-field" placeholder="Search...">
+                                <button type="submit" class="header-search-submit" title="Search"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div> -->
                         </div><!-- /.wrap-inner -->
                     </div><!-- /#site-header-inner -->
                 </header><!-- /#site-header -->
             </div><!-- #site-header-wrap -->
 
-            <!-- Featured Title -->
-            <div id="featured-title" class="featured-title clearfix">
-                <div id="featured-title-inner" class="container clearfix">
-                    <div class="featured-title-inner-wrap">
-                        <div id="breadcrumbs">
-                            <div class="breadcrumbs-inner">
-                                <div class="breadcrumb-trail">
-                                    <a href="index.html" class="trail-begin">Home</a>
-                                    <span class="sep">|</span>
-                                    <a href="about.html" class="trail-begin">About us </a>
-                                    <span class="sep">|</span>
-                                    <span class="trail-end">Careers</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="featured-title-heading-wrap">
-                            <h1 class="feautured-title-heading">
-                                Careers
-                            </h1>
-                        </div>
-                    </div><!-- /.featured-title-inner-wrap -->
-                </div><!-- /#featured-title-inner -->
-            </div>
-            <!-- End Featured Title -->
+
 
             <!-- Main Content -->
             <div id="main-content" class="site-main clearfix">
+                <div class="themesflat-spacer clearfix" data-desktop="80" data-mobile="80" data-smobile="70"></div>
+                <div class="mission bg-primary" style="background-image: url(https://static.wixstatic.com/media/11062b_f97f2d088d4949ea996a4f8a3ac1c1cdf000.jpg/v1/fill/w_980,h_692,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/11062b_f97f2d088d4949ea996a4f8a3ac1c1cdf000.jpg); background-repeat: no-repeat;
+                background-size: cover;">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <div class="themesflat-spacer clearfix" data-desktop="500" data-mobile="500"
+                                    data-smobile="400"></div>
+
+                                <div class="themesflat-spacer clearfix" data-desktop="20" data-mobile="20"
+                                    data-smobile="20"></div>
+                                <h1 class="text-primary  font-heading font-weight-600 text-center">
+                                    Work with Us!
+                                </h1>
+                                <div class="themesflat-spacer clearfix" data-desktop="15" data-mobile="15"
+                                    data-smobile="15"></div>
+                                <div class="elm-button text-center">
+                                    <a href="#" class="themesflat-button bg-accent">APPLY</a>
+                                </div>
+                                <div class="themesflat-spacer clearfix" data-desktop="100" data-mobile="100"
+                                    data-smobile="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div id="content-wrap" class="container">
                     <div id="site-content" class="site-content clearfix">
+
+
+
                         <div id="inner-content" class="inner-content-wrap">
                             <div class="themesflat-spacer clearfix" data-desktop="80" data-mobile="60"
                                 data-smobile="60"></div>
@@ -202,8 +188,9 @@
                             <div class="themesflat-spacer clearfix" data-desktop="29" data-mobile="35"
                                 data-smobile="35"></div>
                             <div class="themesflat-headings style-2 clearfix">
-                                <h2 class="heading">WE ARE HIRING</h2>
-                                <div class="sep has-width w80 accent-bg clearfix"></div>
+                                <h1 class="text-primary  text-center">WORKING AT SNAPDRAGON
+                                </h1>
+                                <!-- <div class="sep has-width w80 accent-bg clearfix"></div> -->
                                 <p
                                     class="sub-heading font-size-16 line-height-28 text-666 margin-top-27 letter-spacing-01">
                                     We are hiring. Spread across the globe our team is a highly-skilled, diverse network
@@ -212,7 +199,7 @@
                                     projects. If you are sure our team is where you belong, go ahead and write to us. We
                                     would love to hear why you think you are a great fit.</p>
                             </div>
-                            <div class="themesflat-spacer clearfix" data-desktop="22" data-mobile="22"
+                            <div class="themesflat-spacer clearfix" data-desktop="42" data-mobile="42"
                                 data-smobile="22"></div>
                             <div class="themesflat-accordions style-4 has-icon icon-right iconstyle-1 clearfix">
                                 <div class="accordion-item active">
@@ -582,74 +569,134 @@
                                 </div><!-- /.accordion-item -->
 
                             </div><!-- /.themesflat-accordion -->
+                            <div class="themesflat-spacer clearfix" data-desktop="60" data-mobile="60"
+                                data-smobile="40"></div>
+                            <div class="contact-us">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6 bg-gradient">
+                                            <div class="themesflat-spacer clearfix" data-desktop="60" data-mobile="60"
+                                                data-smobile="40"></div>
+                                            <h1 class="text-primary font-heading font-weight-600 text-center">
+                                                CONTACT US
+                                            </h1>
+                                            <div class="themesflat-headings style-1 text-center clearfix">
+                                                <div
+                                                    class=" font-heading font-weight-400 text-center text-size-16 width-80">
+                                                    Apply for a Job
+                                                </div>
+                                            </div>
+                                            <div class="themesflat-spacer clearfix" data-desktop="40" data-mobile="40"
+                                                data-smobile="20"></div>
+                                            <div class="themesflat-contact-form style-2 clearfix">
+                                                <form id="contactform" action="./contact/contact-process.php"
+                                                    method="post" accept-charset="utf-8"
+                                                    class="form-submit contact-form wpcf7-form">
+                                                    <span class="wpcf7-form-control-wrap your-name">
+                                                        <input type="text" tabindex="1" id="name" name="name" value=""
+                                                            class="wpcf7-form-control" placeholder="Name*">
+                                                    </span>
+                                                    <span class="wpcf7-form-control-wrap your-phone">
+                                                        <input type="text" tabindex="2" id="phone" name="phone" value=""
+                                                            class="wpcf7-form-control" placeholder="Phone">
+                                                    </span>
+                                                    <span class="wpcf7-form-control-wrap your-email">
+                                                        <input type="email" tabindex="3" id="email" name="email"
+                                                            value="" class="wpcf7-form-control"
+                                                            placeholder="Your Email*">
+                                                    </span>
+                                                    <span class="wpcf7-form-control-wrap your-subject">
+                                                        <input type="text" tabindex="4" id="subject" name="position"
+                                                            value="" class="wpcf7-form-control" placeholder="Position">
+                                                    </span>
+                                                    <span class="wpcf7-form-control-wrap your-email">
+                                                        <input type="text" tabindex="5" id="email" name="date" value=""
+                                                            class="wpcf7-form-control"
+                                                            placeholder="Available from date">
+                                                    </span>
+
+                                                    <span class="wpcf7-form-control-wrap your-subject">
+                                                        <input type="text" tabindex="6" id="subject" name="link"
+                                                            value="" class="wpcf7-form-control"
+                                                            placeholder="Resume Link">
+                                                    </span>
+                                                    <div class="themesflat-headings style-1 text-center clearfix">
+                                                        <div class="themesflat-spacer clearfix" data-desktop="30"
+                                                            data-mobile="30" data-smobile="10"></div>
+                                                        <span class="wrap-submit elm-button text-center">
+                                                            <input type="submit" value="APPLY"
+                                                                class=" wpcf7-form-control wpcf7-submit themesflat-button bg-accent"
+                                                                id="submit" name="submit">
+                                                        </span>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="themesflat-spacer clearfix" data-desktop="40" data-mobile="40"
+                                                data-smobile="20"></div>
+
+                                            <div class="themesflat-headings style-1 text-center clearfix">
+                                                <div
+                                                    class="text-primary font-heading font-weight-400 text-center text-size-16 width-80">
+                                                    Thanks for submitting!
+                                                </div>
+                                            </div>
+                                            <div class="themesflat-spacer clearfix" data-desktop="60" data-mobile="60"
+                                                data-smobile="40"></div>
+
+                                        </div>
+
+                                        <div class="col-md-6" style="
+                                        background-image: url(https://static.wixstatic.com/media/d1c5cd0055c94e3bb1acee9e2fda9f0e.jpg/v1/fill/w_613,h_994,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d1c5cd0055c94e3bb1acee9e2fda9f0e.jpg);
+                                        background-repeat: no-repeat;
+                                        background-size: cover;">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
                             <div class="themesflat-spacer clearfix" data-desktop="78" data-mobile="60"
                                 data-smobile="60"></div>
                         </div><!-- /#inner-content -->
                     </div><!-- /#site-content -->
-                    <div id="sidebar">
-                        <div class="themesflat-spacer clearfix" data-desktop="80" data-mobile="0" data-smobile="0">
-                        </div>
-                        <div id="inner-sidebar" class="inner-content-wrap">
-                            <div class="widget widget_list">
-                                <div class="inner">
-                                    <ul class="list-wrap">
-                                        <li class="list-item">
-                                            <a href="#"><span class="text">Who we are?</span></a>
-                                        </li>
-                                        <li class="list-item">
-                                            <a href="#"><span class="text">Leadership Team</span></a>
-                                        </li>
-                                        <li class="list-item">
-                                            <a href="#"><span class="text">Careers</span></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div><!-- /.widget_list -->
 
-                            <!-- /.widget_instagram -->
 
-                            <!-- /.widget_lastest -->
-                        </div>
-                        <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="60" data-smobile="60">
-                        </div>
-                    </div><!-- /#sidebar -->
+
+
                 </div><!-- /#content-wrap -->
             </div><!-- /#main-content -->
 
             <!-- Footer -->
-            <footer id="footer" class="clearfix">
+            <footer id="footer" class="clearfix bg-gradient">
                 <div id="footer-widgets" class="container">
                     <div class="themesflat-row gutter-30">
                         <div class="col span_1_of_3">
                             <div class="widget widget_text">
                                 <div class="textwidget">
                                     <p>
-                                        <img src="assets/img/logo-white@2x.png" alt="Image" width="170" height="34">
+                                        <img src="assets/logo.png" alt="Image" width="95" height="83">
                                     </p>
 
-                                    <p class="margin-bottom-15">We have over 15 years of experien able to help you 24
-                                        hours a day.</p>
+                                    <!-- <p class="margin-bottom-15">We have over 15 years of experien able to help you 24 hours a day.</p> -->
 
                                     <ul>
                                         <li>
                                             <div class="inner">
                                                 <span class="fa fa-map-marker"></span>
-                                                <span class="text">PO BOX 16122 COLLINS STREET <span class="sl">West
-                                                        Victoria, NewYork</span></span>
+                                                <span class="text text-dark">One Broadway, Cambridge, MA 02139 </span>
                                             </div>
                                         </li>
 
                                         <li>
                                             <div class="inner">
                                                 <span class="fa fa-phone"></span>
-                                                <span class="text">CALL US : (+61) 3 8376 6284</span>
+                                                <span class="text text-dark">CALL US : 704-341-5028</span>
                                             </div>
                                         </li>
 
                                         <li class="margin-top-7">
                                             <div class="inner">
                                                 <span class=" font-size-14 fa fa-envelope"></span>
-                                                <span class="text">SUPPORT@NICHE_THEME</span>
+                                                <span class="text text-dark">contact@snapdragonls.com</span>
                                             </div>
                                         </li>
                                     </ul>
@@ -663,135 +710,21 @@
                             <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="0" data-smobile="0">
                             </div>
 
-                            <div class="widget widget_lastest">
-                                <h2 class="widget-title"><span>RECENT POSTS</span></h2>
-                                <ul class="lastest-posts data-effect clearfix">
-                                    <li class="clearfix">
-                                        <div class="thumb data-effect-item has-effect-icon">
-                                            <img src="assets/img/news/post-1-65x65.jpg" alt="Image">
-                                            <div class="overlay-effect bg-color-2"></div>
-                                            <div class="elm-link">
-                                                <a href="resources-single.html" class="icon-2"></a>
-                                            </div>
-                                        </div>
-                                        <div class="text">
-                                            <h3><a href="resources-single.html">SMART BUILDING WITH CONCRETE
-                                                    SUSTAINABLE</a></h3>
-                                            <span class="post-date"><span class="entry-date">29 June 2018</span></span>
-                                        </div>
-                                    </li>
-                                    <li class="clearfix">
-                                        <div class="thumb data-effect-item has-effect-icon">
-                                            <img src="assets/img/news/post-2-65x65.jpg" alt="Image">
-                                            <div class="overlay-effect bg-color-2"></div>
-                                            <div class="elm-link">
-                                                <a href="resources-single.html" class="icon-2"></a>
-                                            </div>
-                                        </div>
-                                        <div class="text">
-                                            <h3><a href="resources-single.html">HI-TECH WOODEN HOUSE BUILT WITHOUT
-                                                    GLUE</a></h3>
-                                            <span class="post-date"><span class="entry-date">31 June 2018</span></span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div><!-- /.widget_lastest -->
+
                         </div><!-- /.col -->
 
                         <div class="col span_1_of_3">
                             <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="35" data-smobile="35">
                             </div>
 
-                            <div class="widget widget_tags">
-                                <h2 class="widget-title margin-bottom-30"><span>TAGS</span></h2>
-                                <div class="tags-list">
-                                    <a href="#">Building</a>
-                                    <a href="#">Smart House</a>
-                                    <a href="#">Costruction</a>
-                                    <a href="#">Villa</a>
-                                    <a href="#">Residential</a>
-                                    <a href="#">Interior</a>
-                                    <a href="#">Resort</a>
-                                    <a href="#">Commercial</a>
-                                </div>
-                            </div>
+
                         </div><!-- /.col -->
 
                         <div class="col span_1_of_3">
                             <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="35" data-smobile="35">
                             </div>
 
-                            <div class="widget widget_instagram">
-                                <h2 class="widget-title margin-bottom-30"><span>INSTAGRAM PHOTOS</span></h2>
-                                <div class="instagram-wrap data-effect clearfix col3 g10">
-                                    <div class="instagram_badge_image has-effect-icon">
-                                        <a href="#" target="_blank" class="data-effect-item">
-                                            <span class="item"><img src="assets/img/instagram/instagram-1-83x83.jpg"
-                                                    alt="Image"></span>
-                                            <div class="overlay-effect bg-color-2"></div>
-                                            <div class="elm-link">
-                                                <span class="icon-3"></span>
-                                            </div>
-                                        </a>
-                                    </div>
 
-                                    <div class="instagram_badge_image has-effect-icon">
-                                        <a href="#" target="_blank" class="data-effect-item">
-                                            <span class="item"><img src="assets/img/instagram/instagram-2-83x83.jpg"
-                                                    alt="Image"></span>
-                                            <div class="overlay-effect bg-color-2"></div>
-                                            <div class="elm-link">
-                                                <span class="icon-3"></span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-
-                                    <div class="instagram_badge_image has-effect-icon">
-                                        <a href="#" target="_blank" class="data-effect-item">
-                                            <span class="item"><img src="assets/img/instagram/instagram-3-83x83.jpg"
-                                                    alt="Image"></span>
-                                            <div class="overlay-effect bg-color-2"></div>
-                                            <div class="elm-link">
-                                                <span class="icon-3"></span>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div class="instagram_badge_image has-effect-icon">
-                                        <a href="#" target="_blank" class="data-effect-item">
-                                            <span class="item"><img src="assets/img/instagram/instagram-4-83x83.jpg"
-                                                    alt="Image"></span>
-                                            <div class="overlay-effect bg-color-2"></div>
-                                            <div class="elm-link">
-                                                <span class="icon-3"></span>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div class="instagram_badge_image has-effect-icon">
-                                        <a href="#" target="_blank" class="data-effect-item">
-                                            <span class="item"><img src="assets/img/instagram/instagram-5-83x83.jpg"
-                                                    alt="Image"></span>
-                                            <div class="overlay-effect bg-color-2"></div>
-                                            <div class="elm-link">
-                                                <span class="icon-3"></span>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div class="instagram_badge_image has-effect-icon">
-                                        <a href="#" target="_blank" class="data-effect-item">
-                                            <span class="item"><img src="assets/img/instagram/instagram-6-83x83.jpg"
-                                                    alt="Image"></span>
-                                            <div class="overlay-effect bg-color-2"></div>
-                                            <div class="elm-link">
-                                                <span class="icon-3"></span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div><!-- /.widget_instagram -->
                         </div><!-- /.col -->
                     </div><!-- /.themesflat-row -->
                 </div><!-- /#footer-widgets -->
@@ -802,28 +735,33 @@
                 <div id="bottom-bar-inner" class="container">
                     <div class="bottom-bar-inner-wrap">
                         <div class="bottom-bar-content">
-                            <div id="copyright">© <span class="text">Construction Template. Design <a href="#"
-                                        class="text-accent">by @Niche_Theme</a></span>
+                            <div id="copyright">© <span class="text">2022 by Snapdragon Life Sciences, LLC.</span>
                             </div>
                         </div><!-- /.bottom-bar-content -->
 
                         <div class="bottom-bar-menu">
                             <ul class="bottom-nav">
-                                <li class="menu-item ">
+                                <li class="menu-item">
                                     <a href="index.html">HOME</a>
                                 </li>
-                                <li class="menu-item current-menu-item">
-                                    <a href="about.htnml">ABOUT US</a>
+                                <li class="menu-item">
+                                    <a href="snap-transparency.html">SNAPTransparency</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="snap-transparency.html">SERVICES</a>
+                                    <a href="price-optimizer.html">PriceOptimizer</a>
                                 </li>
 
                                 <li class="menu-item">
-                                    <a href="resources.html">BLOG</a>
+                                    <a href="about.html">About</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="contact.html">CONTACT</a>
+                                    <a href="resources.html">Resources</a>
+                                </li>
+                                <li class="menu-item current-menu-item">
+                                    <a href="careers.html">Careers</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="contact.html">Contact</a>
                                 </li>
                             </ul>
                         </div><!-- /.bottom-bar-menu -->
@@ -853,6 +791,7 @@
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIEU6OT3xqCksCetQeNLIPps6-AYrhq-s&region=GB"></script>
     <script src="assets/js/shortcodes.js"></script>
+    <script src="assets/js/jquery-validate.js"></script>
     <script src="assets/js/main.js"></script>
 
     <!-- Revolution Slider -->

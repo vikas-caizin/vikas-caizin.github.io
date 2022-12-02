@@ -1630,6 +1630,7 @@ body.page #main-content {
 .topbar-style-3 #top-bar .top-bar-socials .text {
   padding-right: 10px;
   font-size: 13px;
+  color: gray;
 }
 
 /* Header
@@ -3811,7 +3812,7 @@ body.page #main-content {
   }
 
   .header-style-3 #site-header {
-    background-color: #3e3e3e;
+    background-color: #fff;
   }
 
   .topbar-style-3 #top-bar {
@@ -4136,4 +4137,9 @@ body.page #main-content {
 .news-link {
   color: var(--primary);
   text-decoration: underline;
+}
+
+.fill-image {
+  width: 100% !important;
+  object-fit: cover !important;
 }
