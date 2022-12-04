@@ -4112,6 +4112,17 @@ body.page #main-content {
   margin: auto;
 }
 
+.width-85 {
+  width: 85% !important;
+  margin: auto;
+}
+
+.width-90 {
+  width: 90% !important;
+  margin: auto;
+}
+
+
 .white-bg {
   /* box-shadow : none !important; */
   background-color: white;
@@ -4142,4 +4153,52 @@ body.page #main-content {
 .fill-image {
   width: 100% !important;
   object-fit: cover !important;
+}
+
+
+
+.capabilities-cards-container {
+  display: grid;
+
+}
+
+.capabilities-card {
+  min-width: 300px;
+  padding: 12px;
+}
+
+.capabilities-items {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  overflow: auto;
+}
+
+.capabilities-items-right {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: left;
+  overflow: auto;
+}
+
+.capabilities-items > .sub-heading{
+  margin: 14px;
+  min-width: 140px;
+  font-size: 13px;
+}
+
+.capabilities-items-right > .sub-heading{
+  margin: 14px;
+  min-width: 140px;
+  font-size: 13px;
+}
+
+.align-left{
+  float: left;
+  margin-left: 12px;
+}
+
+.align-right{
+  float: right;
+  margin-right: 12px;
 }
