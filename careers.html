@@ -589,7 +589,7 @@
                                             <div class="themesflat-spacer clearfix" data-desktop="40" data-mobile="40"
                                                 data-smobile="20"></div>
                                             <div class="themesflat-contact-form style-2 clearfix">
-                                                <form id="contactform" action="./contact/contact-process.php"
+                                                <form id="apply-job" action="careers.html" method="post"
                                                     method="post" accept-charset="utf-8"
                                                     class="form-submit contact-form wpcf7-form">
                                                     <span class="wpcf7-form-control-wrap your-name">
@@ -606,17 +606,17 @@
                                                             placeholder="Your Email*">
                                                     </span>
                                                     <span class="wpcf7-form-control-wrap your-subject">
-                                                        <input type="text" tabindex="4" id="subject" name="position"
+                                                        <input type="text" tabindex="4" id="position" name="position"
                                                             value="" class="wpcf7-form-control" placeholder="Position">
                                                     </span>
                                                     <span class="wpcf7-form-control-wrap your-email">
-                                                        <input type="text" tabindex="5" id="email" name="date" value=""
+                                                        <input type="text" tabindex="5" id="date" name="date" value=""
                                                             class="wpcf7-form-control"
                                                             placeholder="Available from date">
                                                     </span>
 
                                                     <span class="wpcf7-form-control-wrap your-subject">
-                                                        <input type="text" tabindex="6" id="subject" name="link"
+                                                        <input type="text" tabindex="6" id="link" name="link"
                                                             value="" class="wpcf7-form-control"
                                                             placeholder="Resume Link">
                                                     </span>
@@ -626,7 +626,7 @@
                                                         <span class="wrap-submit elm-button text-center">
                                                             <input type="submit" value="APPLY"
                                                                 class=" wpcf7-form-control wpcf7-submit themesflat-button bg-accent"
-                                                                id="submit" name="submit">
+                                                                id="submit" name="submit" onclick="applyJob(event)">
                                                         </span>
                                                     </div>
                                                 </form>
@@ -808,6 +808,7 @@
     <script src="includes/rev-slider/js/extensions/revolution.extension.parallax.min.js"></script>
     <script src="includes/rev-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script src="includes/rev-slider/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="contact/contact.js"></script>
 
 </body>
 

@@ -38,11 +38,29 @@ function contact2(event) {
         sendEmail(subject, body)
 }
 
-// function apply(event) {
-//     const form = document.getElementById("apply");
-//     event.preventDefault();
+function applyJob(event) {
+    const form = document.getElementById("apply-job");
+    event.preventDefault();
 
-// }
+    const name = form.elements['name'].value;
+    const phone = form.elements['phone'].value;
+    const email = form.elements['email'].value;
+    const position = form.elements['position'].value;
+    const date = form.elements['date'].value;
+    const link = form.elements['link'].value;
+
+    const body =
+        `
+        Name: ${name}\n
+        Phone: ${phone}\n
+        Email: ${email}\n
+        Position: ${position}\n
+        Date: ${date}\n\n
+        Link: ${link}\n
+        `
+    if (name && email && phone && position && date && link)
+        sendEmail("JOB APPLICATION", body)
+}
 
 function sendEmail(subject, body) {
     document.location = "mailto:" + emailId + "?subject=" + subject + "&body=" + body;
