@@ -225,7 +225,7 @@
                                                 <div class="themesflat-spacer clearfix" data-desktop="40"
                                                     data-mobile="40" data-smobile="40"></div>
                                                 <div class="themesflat-contact-form style-2 clearfix">
-                                                    <form id="contactform" action="./contact/contact-process.php"
+                                                    <form id="contact2" action="contact.html" id="contact2" method="post"
                                                         method="post" accept-charset="utf-8"
                                                         class="form-submit contact-form wpcf7-form">
                                                         <span class="wpcf7-form-control-wrap your-name">
@@ -235,7 +235,7 @@
                                                         </span>
                                                         <span class="wpcf7-form-control-wrap your-phone">
                                                             <input type="text" tabindex="2" id="phone" name="phone"
-                                                                value="" class="wpcf7-form-control" placeholder="Phone">
+                                                                value="" class="wpcf7-form-control" placeholder="Phone" required>
                                                         </span>
                                                         <span class="wpcf7-form-control-wrap your-email">
                                                             <input type="email" tabindex="3" id="email" name="email"
@@ -245,15 +245,15 @@
                                                         <span class="wpcf7-form-control-wrap your-subject">
                                                             <input type="text" tabindex="4" id="subject" name="subject"
                                                                 value="" class="wpcf7-form-control"
-                                                                placeholder="Subject">
+                                                                placeholder="Subject" required>
                                                         </span>
-                                                        <span class="wpcf7-form-control-wrap your-email">
-                                                            <input type="email" tabindex="5" id="email" name="state"
+                                                        <span class="wpcf7-form-control-wrap your-name">
+                                                            <input type="text" tabindex="5" id="state" name="state"
                                                                 value="" class="wpcf7-form-control" placeholder="State"
                                                                 required>
                                                         </span>
-                                                        <span class="wpcf7-form-control-wrap your-subject">
-                                                            <input type="text" tabindex="6" id="subject" name="company"
+                                                        <span class="wpcf7-form-control-wrap your-phone">
+                                                            <input type="text" tabindex="6" id="company" name="company"
                                                                 value="" class="wpcf7-form-control"
                                                                 placeholder="Company">
                                                         </span>
@@ -268,7 +268,7 @@
                                                             <span class="wrap-submit elm-button text-center">
                                                                 <input type="submit" value="REQUEST A DEMO"
                                                                     class=" wpcf7-form-control wpcf7-submit themesflat-button bg-accent"
-                                                                    id="submit" name="submit">
+                                                                    id="submit" name="submit" onclick="contact2(event)">
                                                             </span>
                                                         </div>
                                                     </form>
@@ -449,6 +449,7 @@
     <script src="includes/rev-slider/js/extensions/revolution.extension.parallax.min.js"></script>
     <script src="includes/rev-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script src="includes/rev-slider/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="contact/contact.js"></script>
 
 </body>
 

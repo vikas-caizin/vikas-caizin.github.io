@@ -4178,18 +4178,18 @@ body.page #main-content {
   display: flex;
   flex-direction: row-reverse;
   text-align: left;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .capabilities-items > .sub-heading{
-  margin: 14px;
-  min-width: 140px;
+  margin: 12px;
+  min-width: 120px;
   font-size: 13px;
 }
 
 .capabilities-items-right > .sub-heading{
-  margin: 14px;
-  min-width: 140px;
+  margin: 12px;
+  min-width: 120px;
   font-size: 13px;
 }
 
