@@ -1,4 +1,6 @@
 const emailId = 'contact@snapdragonls.com'
+const NL = '%0D%0A' //new line
+const greeting = `Hello team Snapdragonls !` + NL + NL
 
 function contact1(event) {
     const form = document.getElementById("contact1");
@@ -6,9 +8,13 @@ function contact1(event) {
     const name = form.elements['name'].value;
     const email = form.elements['email'].value;
     const subject = `You have been contacted by: ${name}\n`
+
     const body =
-        `Name: ${name}\n
-    Email: ${email}\n`
+        greeting +
+        `We are interested to know more about SnapTransparency` + NL +
+        `Please get back to us on below details` + NL + NL +
+        `Name: ${name}` + NL +
+        `Email: ${email}` + NL + NL
 
     if (name && email)
         sendEmail(subject, body)
@@ -26,14 +32,16 @@ function contact2(event) {
     const message = form.elements['message'].value;
 
     const body =
-        `
-    Name: ${name}\n
-    Phone: ${phone}\n
-    Email: ${email}\n
-    State: ${state}\n
-    Company: ${company}\n\n
-    message: ${message}\n
-    `
+        greeting +
+        `We are interested to know more about SnapTransparency` + NL +
+        `Please get back to us on below details` + NL + NL +
+        `Name: ${name}` + NL +
+        `Phone: ${phone}` + NL +
+        `Email: ${email}` + NL +
+        `State: ${state}` + NL +
+        `Company: ${company}` + NL +
+        `message: ${message}` + NL + NL
+
     if (name && email && phone && subject && state && company && message)
         sendEmail(subject, body)
 }
@@ -50,14 +58,16 @@ function applyJob(event) {
     const link = form.elements['link'].value;
 
     const body =
-        `
-        Name: ${name}\n
-        Phone: ${phone}\n
-        Email: ${email}\n
-        Position: ${position}\n
-        Date: ${date}\n\n
-        Link: ${link}\n
-        `
+        greeting +
+        `I am interested to work at snapdragonls` + NL +
+        `Here are the details` + NL + NL +
+        `Name: ${name}` + NL +
+        `Phone: ${phone}` + NL +
+        `Email: ${email}` + NL +
+        `Position: ${position}` + NL +
+        `Date: ${date}` + NL +
+        `Link: ${link}` + NL + NL
+        
     if (name && email && phone && position && date && link)
         sendEmail("JOB APPLICATION", body)
 }
