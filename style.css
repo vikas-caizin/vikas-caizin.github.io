@@ -4111,6 +4111,13 @@ body.page #main-content {
   font-size: 40px;
 }
 
+.text-size-14 {
+  font-size: 14px !important;
+}
+
+.text-size-12 {
+  font-size: 12px !important;
+}
 .width-80 {
   width: 80% !important;
   margin: auto;
@@ -4178,22 +4185,10 @@ body.page #main-content {
   overflow: auto;
 }
 
-.capabilities-items-right {
-  display: flex;
-  flex-direction: row-reverse;
-  text-align: left;
-  overflow: hidden;
-}
-
 .capabilities-items > .sub-heading{
   margin: 12px;
   min-width: 120px;
-  font-size: 13px;
-}
-
-.capabilities-items-right > .sub-heading{
-  margin: 12px;
-  min-width: 120px;
+  max-width: 240px;
   font-size: 13px;
 }
 
@@ -4205,4 +4200,14 @@ body.page #main-content {
 .align-right{
   float: right;
   margin-right: 12px;
+}
+
+.team-grid {
+  display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr) ) ;
+}
+
+.team-item {
+  display: flex;
 }
