@@ -32,7 +32,7 @@
 -------------------------------------------------------------- */
 .themesflat-button { display: inline-block; font-size: 18px;  font-weight: 600; color: #fff; background-color: transparent; padding: 14px 40px;  font-family: 'Montserrat', sans-serif; letter-spacing: 0.5px;  position: relative; z-index: 1; overflow: hidden; }
 .themesflat-button.font-default { font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 400; padding: 13px 25px; letter-spacing: 0px; }
-.themesflat-button.bg-accent { background-color: #fff; color: var(--primary); border: 2px solid var(--primary); }
+.themesflat-button.bg-accent { background-color: #EC1E26; color: #fff; }
 .themesflat-button.bg-white { background-color: #fff; color: var(--primary) ;}
 .themesflat-button.bg-light-white { background-color: #f2f2f2; color: #555; }
 .themesflat-button.bg-white.color-333 { background-color: #fff; color: #333; }
@@ -123,7 +123,7 @@
 .themesflat-icon-box.light-bg .icon-wrap { background-color: #f5f5f5;  position: relative; z-index: 1; }
 
 /* Color */
-.themesflat-icon-box.accent-color .icon-wrap { color: #775DA6; }
+.themesflat-icon-box.accent-color .icon-wrap { color: #E3E7EC; }
 
 /* Border */
 .themesflat-icon-box.border-light { border: 1px solid #f2f2f2; }
@@ -584,7 +584,7 @@
 
 /* Style 4 */
 .themesflat-accordions.style-4 .accordion-item .accordion-heading { font-size: 16px; color: #777; font-weight: 500; border: 1px solid #f2f2f2; background-color: #fafafb; text-transform: uppercase;  padding: 13px 23px;}
-.themesflat-accordions.style-4 .accordion-item.active  .accordion-heading { background-color: #775DA6; border-color: #775DA6; color: #fff; }
+.themesflat-accordions.style-4 .accordion-item.active  .accordion-heading { background-color: #0a1b2a; border-color: #0a1b2a; color: #fff; }
 .themesflat-accordions.style-4 .accordion-content { border: 1px solid #f2f2f2; padding: 22px 5px 22px 24px;  }
 .themesflat-accordions.style-4.has-icon.icon-right .accordion-item .accordion-heading > .inner:before { color: #999; font-size: 30px; right: 0px; }
 .themesflat-accordions.style-4.has-icon.icon-right .accordion-item.active .accordion-heading > .inner:before { color: #fff; }
