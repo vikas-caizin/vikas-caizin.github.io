@@ -669,7 +669,7 @@ input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus {
-  border-color: #775DA6;
+  border-color: #143654;
   outline: 0;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -745,7 +745,7 @@ a:hover,
 a:focus,
 a:active {
   outline: 0;
-  color: #775DA6;
+  color: #143654;
   text-decoration: none
 }
 
@@ -917,7 +917,7 @@ h6 a {
 }
 
 .text-accent {
-  color: #775DA6 !important;
+  color: #143654 !important;
 }
 
 .text-white {
@@ -953,7 +953,7 @@ h6 a {
 }
 
 .bg-ffc {
-  background-color: #775DA6 !important;
+  background-color: #143654 !important;
 }
 
 .bg-row-1 {
@@ -1398,13 +1398,13 @@ body.page #main-content {
 }
 
 .has-effect-icon .elm-link a.icon-1:hover {
-  border-color: #775DA6;
-  background-color: #775DA6;
+  border-color: #143654;
+  background-color: #143654;
 }
 
 .has-effect-icon .elm-link a.icon-2:hover,
 .has-effect-icon .elm-link span.icon-3:hover {
-  color: #775DA6;
+  color: #143654;
 }
 
 /* Icon 4 */
@@ -1425,7 +1425,7 @@ body.page #main-content {
 
 .custom .tp-bullet:hover,
 .custom .tp-bullet.selected {
-  background-color: #775DA6;
+  background-color: #143654;
 }
 
 .custom.tparrows {
@@ -1448,7 +1448,7 @@ body.page #main-content {
 }
 
 .custom.tparrows:hover {
-  background-color: #775DA6;
+  background-color: #143654;
 }
 
 .custom.tparrows:hover:before {
@@ -1568,7 +1568,7 @@ body.page #main-content {
 }
 
 #top-bar .top-bar-socials .icons a:hover {
-  color: #775DA6;
+  color: #143654;
 }
 
 /* Style 1 */
@@ -1760,7 +1760,7 @@ body.page #main-content {
 
 #main-nav .sub-menu li a:hover,
 #main-nav .sub-menu li.current-item a {
-  color: #775DA6;
+  color: #143654;
 }
 
 /* Mobile Menu */
@@ -1806,7 +1806,7 @@ body.page #main-content {
 
 #main-nav-mobi ul>li.current-menu-item>a,
 #main-nav-mobi ul>li>a:hover {
-  color: #775DA6;
+  color: #143654;
 }
 
 #main-nav-mobi .menu-item-has-children .arrow {
@@ -1901,7 +1901,7 @@ body.page #main-content {
 .mobile-button:before,
 .mobile-button:after,
 .mobile-button span {
-  background-color: #775DA6;
+  background-color: #143654;
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
   transition: all ease 0.3s;
@@ -1997,7 +1997,7 @@ body.page #main-content {
 
 .header-style-1 #site-header #main-nav>ul>li.current-menu-item>a,
 .header-style-1 #site-header #main-nav>ul>li:hover>a {
-  color: #775DA6;
+  color: #143654;
 }
 
 /* Style 2 */
@@ -2037,7 +2037,7 @@ body.page #main-content {
   left: 0;
   width: 0%;
   height: 3px;
-  background-color: #775DA6;
+  background-color: #143654;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.3s ease;
@@ -2082,7 +2082,7 @@ body.page #main-content {
 
 .header-style-3 #site-header #main-nav>ul>li.current-menu-item>a,
 .header-style-3 #site-header #main-nav>ul>li:hover>a {
-  color: #775DA6;
+  color: #143654;
 }
 
 .header-style-3 #site-header .header-search-icon,
@@ -2156,7 +2156,7 @@ body.page #main-content {
 }
 
 #featured-title #breadcrumbs a:hover {
-  color: #775DA6;
+  color: #143654;
 }
 
 /* Blog Post
@@ -2190,7 +2190,7 @@ body.page #main-content {
 
 .post-media>.post-calendar .entry-calendar {
   display: inline-block;
-  background-color: #775DA6;
+  background-color: #143654;
   color: #fff;
   font-weight: 600;
   text-align: center;
@@ -2260,7 +2260,7 @@ body.page #main-content {
 }
 
 .hentry .post-meta a:hover {
-  color: #775DA6;
+  color: #143654;
 }
 
 /* Post content */
@@ -2292,7 +2292,7 @@ body.page #main-content {
   font-size: 14px;
   font-weight: 600;
   color: #fff;
-  background-color: #775DA6;
+  background-color: #143654;
   text-align: center;
   padding: 11px 31px;
   letter-spacing: 0.5px;
@@ -2422,17 +2422,17 @@ body.page #main-content {
 
 .hentry .post-socials a:hover,
 .hentry .post-tags a:hover {
-  background-color: #775DA6;
+  background-color: #143654;
   color: #fff;
 }
 
 .hentry .post-tags a:hover {
-  border-color: #775DA6;
+  border-color: #143654;
 }
 
 .hentry .post-tags a:hover:before {
-  background-color: #775DA6;
-  border-color: #775DA6;
+  background-color: #143654;
+  border-color: #143654;
 }
 
 /* Comments */
@@ -2523,7 +2523,7 @@ body.page #main-content {
   font-family: "Ionicons";
   right: 0;
   top: 0;
-  color: #775DA6;
+  color: #143654;
   margin-right: -5px;
   padding-left: 5px;
   -webkit-transition: all 0.3s ease;
@@ -2534,7 +2534,7 @@ body.page #main-content {
 }
 
 .comment-list .comment-reply a {
-  color: #775DA6;
+  color: #143654;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -2640,7 +2640,7 @@ body.page #main-content {
 }
 
 .comment-list.style-2 .comment-text .socials>a:hover {
-  background-color: #775DA6;
+  background-color: #143654;
   color: #fff;
 }
 
@@ -2733,7 +2733,7 @@ body.page #main-content {
   left: 0;
   height: 2px;
   width: 60px;
-  background-color: #775DA6;
+  background-color: #143654;
 }
 
 /* Widget Search */
@@ -2782,7 +2782,7 @@ body.page #main-content {
 }
 
 #sidebar .widget.widget_search .search-form .search-submit:hover {
-  background-color: #775DA6;
+  background-color: #143654;
 }
 
 /* Widget follow */
@@ -2836,7 +2836,7 @@ body.page #main-content {
 }
 
 #sidebar .widget.widget_follow .follow-item:hover a {
-  background-color: #775DA6;
+  background-color: #143654;
 }
 
 /* Widget lastest */
@@ -2939,14 +2939,14 @@ body.page #main-content {
 
 #footer .widget.widget_tags .tags-list a:hover,
 .widget.widget_tags .tags-list a:hover {
-  background-color: #775DA6;
+  background-color: #143654;
   color: #fff;
 }
 
 #footer .widget.widget_tags .tags-list a:hover:before,
 .widget.widget_tags .tags-list a:hover:before {
-  background-color: #775DA6;
-  border-color: #775DA6;
+  background-color: #143654;
+  border-color: #143654;
 }
 
 /* Widget instagram */
@@ -3019,11 +3019,11 @@ body.page #main-content {
 }
 
 .widget.widget_list .list-item>a:hover {
-  color: #775DA6;
+  color: #143654;
 }
 
 .widget.widget_list .list-item>a:hover:before {
-  background-color: #775DA6;
+  background-color: #143654;
 }
 
 /* Widget lastest twitter */
@@ -3078,11 +3078,11 @@ body.page #main-content {
 }
 
 .widget.widget_lastest_twitter li:hover .icon-wrap.has-width.w30 {
-  background-color: #775DA6;
+  background-color: #143654;
 }
 
 .widget.widget_lastest_twitter .text a:hover {
-  color: #775DA6;
+  color: #143654;
 }
 
 /* Widget help */
@@ -3127,9 +3127,9 @@ body.page #main-content {
 
 .themesflat-pagination ul li .page-numbers:hover,
 .themesflat-pagination ul li .page-numbers.current {
-  background-color: #775DA6;
+  background-color: #143654;
   color: #fff;
-  border-color: #775DA6;
+  border-color: #143654;
 }
 
 .themesflat-pagination .page-prev-next {
@@ -3218,7 +3218,7 @@ body.page #main-content {
 }
 
 .themesflat-pagination .page-prev-next>li a:hover {
-  color: #775DA6;
+  color: #143654;
 }
 
 .themesflat-pagination .page-prev-next>li a:hover:before {
@@ -3226,7 +3226,7 @@ body.page #main-content {
 }
 
 .themesflat-pagination .page-prev-next>li a:hover:after {
-  background-color: #775DA6;
+  background-color: #143654;
 }
 
 /* Footer
@@ -3295,7 +3295,7 @@ body.page #main-content {
   display: inline-block;
   text-align: center;
   background-color: #1d1d1d;
-  color: #775DA6;
+  color: #143654;
   font-size: 17px;
   width: 25px;
   height: 25px;
@@ -3383,7 +3383,7 @@ body.page #main-content {
 
 #bottom ul.bottom-nav>li.current-menu-item>a,
 #bottom ul.bottom-nav>li>a:hover {
-  color: #775DA6;
+  color: #143654;
 }
 
 /* Scroll Top
@@ -3438,7 +3438,7 @@ body.page #main-content {
 }
 
 #scroll-top:hover:before {
-  background-color: #775DA6;
+  background-color: #143654;
 }
 
 /* Switcher
@@ -3466,7 +3466,7 @@ body.page #main-content {
 }
 
 .switcher-container h2 a {
-  background-color: #775DA6;
+  background-color: #143654;
   display: block;
   position: absolute;
   right: -45px;
@@ -3591,8 +3591,8 @@ body.page #main-content {
 }
 
 .sw-even a:hover {
-  background-color: #775DA6;
-  border: 1px solid #775DA6;
+  background-color: #143654;
+  border: 1px solid #143654;
   color: #fff !important;
 }
 
@@ -3640,7 +3640,7 @@ body.page #main-content {
 }
 
 .sw-odd .ws-colors #color1 {
-  background-color: #775DA6;
+  background-color: #143654;
 }
 
 .sw-odd .ws-colors #color2 {
@@ -4014,11 +4014,11 @@ body.page #main-content {
 
 
 .primary {
-  color: #775DA6;
+  color: #143654;
 }
 
 .secondary {
-  color: #FFBDC2;
+  color: #EC1E26;
 }
 
 .secondary-dark-bg {
