@@ -1523,6 +1523,10 @@ body.page #main-content {
   content: "\f017";
 }
 
+#top-bar .top-bar-content .content.email:before {
+  content: "\f0e0";
+}
+
 #top-bar .top-bar-content .content:after {
   content: "";
   position: absolute;
@@ -2077,7 +2081,7 @@ body.page #main-content {
 
 .header-style-3 #site-header .header-search-icon,
 .header-style-3 #site-header #main-nav>ul>li>a {
-  color: #000;
+  color: #717070;
 }
 
 .header-style-3 #site-header #main-nav>ul>li.current-menu-item>a,
@@ -3294,7 +3298,7 @@ body.page #main-content {
 #footer-widgets .widget.widget_text span.fa {
   display: inline-block;
   text-align: center;
-  background-color: #1d1d1d;
+  /* background-color: #1d1d1d; */
   color: #143654;
   font-size: 17px;
   width: 25px;
@@ -3383,7 +3387,7 @@ body.page #main-content {
 
 #bottom ul.bottom-nav>li.current-menu-item>a,
 #bottom ul.bottom-nav>li>a:hover {
-  color: #143654;
+  color: #fff;
 }
 
 /* Scroll Top
